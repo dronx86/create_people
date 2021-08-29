@@ -74,6 +74,7 @@ def main():
 
         result = os.path.join("res", "created{}.svg".format(counter+1))
         file_operations.render_template(INSERT, result, context)
+    print("10 characters are created!")
 
 
 if __name__ == "__main__":
